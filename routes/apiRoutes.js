@@ -74,6 +74,7 @@ module.exports = function (app) {
                 return console.log(`*** ERROR on /api/noted/:id, Note with ID of ${id} does not exist `);
             }
 
+            // Write the ammended JSON data to the file, effectively replacing the file just read
             fs.writeFile("./db/db.json", JSON.stringify(note_array), function (error) {
                 if (error) {
                     return console.log('*** ERROR on DELETE of /api/notes/:id .. got .. ' + error);
