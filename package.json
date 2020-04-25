@@ -8,7 +8,7 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "author": "",
+  "author": "John ONeill",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
