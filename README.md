@@ -53,7 +53,7 @@ Please contact REPO owner if you want to contribute
 
 Enter the following command
 
-npm run test
+> npm run test
 
 ## Questions
 
